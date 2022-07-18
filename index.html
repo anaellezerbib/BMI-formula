@@ -1,1 +1,32 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>IMC</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "stylesheet" href = "imc.css">
+</head>
 
+<body>
+	<main>
+	<form action="imc.js" method="post" class="form-example">
+		<legend><font size="5"><div Align=Center>BMI calculation</div></font></legend>
+  		<div class="IMC formula">
+    <label for="weight"><font size="4">Enter your weight (kG): </font></label>
+    <input type="text" name="weight" id="weight" placeholder="Ex : 60" size="30" maxlength="3" required>
+  </div>
+  <div class="IMC formula">
+    <label for="height"><font size="4">Enter your height (M): </font></label>
+    <input type="text" name="height" id="height" placeholder="Ex : 170" size="30" maxlength="3" required>
+  </div>
+  <div class="IMC formula">
+  	<br>
+  	<div Align=Center>
+    <input type="submit" value="Let's calculate"></div>
+  </div>
+</form>
+<script src="imc.js"></script>
+</main>
+</body>
+
+</html>
